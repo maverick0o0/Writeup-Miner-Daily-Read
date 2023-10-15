@@ -21,25 +21,49 @@ Daily-Read works by parsing a JSON file available at [https://pentester.land/wri
 
 ## Getting Started
 
+### Install pdfkit for PDF conversion
+
+1. **Install pdfkit:**
+```bash
+   pip install pdfkit
+   ```
+   
+```bash
+   sudo apt-get install wkhtmltopdf   
+   ```
+   
+   Follow for more information : [pdfkit](https://pypi.org/project/pdfkit/)
+
+
 1. **Install the required dependencies:**
 
-   ```bash
+```bash
    pip install -r requirements.txt
    ```
 2. **Open modules/variables.py and add your Discord webhook:**
 
-  ```bash
+```bash
    nano modules/variables.py
    discord_webhook = "Your Discord webhook"
   ```
   
 3. **Run the tool ( send 10 writeups to your Discord server):**
 
-   ```bash
+```bash
    python3.11 daily-read.py -n 10
    ```
    
    * Send 10 writeups with its PDF to your Discord server
-   ```bash
+```bash
    python3.11 daily-read.py -n 10 -pdf
    ```
+4. **Utilize a cronjob for ease of use:**
+   * Run at 12:00 AM
+```bash
+   0 0 * * * cd /Path/To/Your/Writeup-Miner-Daily-Read/Folder && /Your/Python/Location daily-read.py -n 10 >> cronLog.txt
+   ```
+   * Example
+```bash
+   0 0 * * * cd /root/projects/Writeup-Miner-Daily-Read && /usr/bin/python3.11 daily-read.py -n 10 >> cronLog.txt
+   ```
+   
