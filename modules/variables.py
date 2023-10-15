@@ -1,0 +1,5 @@
+db_name = "writeups.db"
+writeup_file = "writeups.json"
+table_name = "writeups"
+writeup_src = "https://pentester.land/writeups.json"
+discord_webhook = ""
