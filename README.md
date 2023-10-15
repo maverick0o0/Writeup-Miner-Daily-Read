@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Daily-Read is a tool designed to keep you updated on the latest security write-ups and articles without the hassle of manually checking multiple sources. In the world of security, staying informed is crucial, and this tool aims to streamline the process for you.
+Daily-Read is a tool that helps you know about the newest security articles and write-ups without you having to check lots of places yourself. It makes staying informed about security easy. The tool is designed to make the process simpler for you.
 
 ## Why Daily-Read?
 
-Keeping abreast of the latest developments in cybersecurity is essential for maintaining a strong security posture. Reading articles and write-ups from various sources is an effective way to stay informed. However, visiting multiple websites to find relevant content can be time-consuming. Daily-Read addresses this issue by automating the process of fetching and delivering the latest write-ups to your Discord server.
+Staying updated with what's new in cybersecurity is super important to keep your security strong. Reading articles and write-ups from different places is a good way to know what's going on. But it takes a lot of time to visit many websites. Daily-Read fixes this by doing it automatically. It gets the newest write-ups and sends them to your Discord server.
 
 ## How it Works
 
