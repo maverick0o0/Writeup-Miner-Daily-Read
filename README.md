@@ -11,6 +11,8 @@ Keeping abreast of the latest developments in cybersecurity is essential for mai
 ## How it Works
 
 Daily-Read works by parsing a JSON file available at [https://pentester.land/writeups.json](https://pentester.land/writeups.json) to identify the newest write-ups. If new write-ups are found, they are sent directly to your Discord server. In the absence of new content, the tool randomly selects from existing write-ups to keep the flow of information constant.
+![Alt text](DailyRead.drawio.png)
+
 
 ## Options
 
@@ -30,10 +32,13 @@ Daily-Read works by parsing a JSON file available at [https://pentester.land/wri
    nano modules/variables.py
    discord_webhook = "Your Discord webhook"
   ```
+  
 3. **Run the tool ( send 10 writeups to your Discord server):**
+
    ```bash
    python3.11 daily-read.py -n 10
    ```
+   
    * Send 10 writeups with its PDF to your Discord server
    ```bash
    python3.11 daily-read.py -n 10 -pdf
